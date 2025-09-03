@@ -1,0 +1,65 @@
+:root[data-theme="light"] {
+  background-color: #fafafa;
+  color: #000;
+
+  button {
+    background-color: #71767c;
+    color: #fff;
+  }
+}
+
+:root[data-theme="dark"] {
+  background-color: #71767c;
+  color:#fff;
+
+  .card {
+    border-color: #fff;
+  }
+
+  button {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+p {
+    margin: 5px;
+}
+
+button {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+ul,ol{
+    padding-left: 20px;
+}
+
+li{
+    text-align: left;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button-light,.button-dark {
+  border-radius: 18px;
+}
+
+
